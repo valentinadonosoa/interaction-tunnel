@@ -8,9 +8,9 @@ html{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     border: 2px solid black;
-    margin: 120px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     align-items: center;
 }
 
@@ -35,7 +35,6 @@ img{
     .container {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, 1fr);
-      margin: 100px;
     }
     .moveable-image {
         position: absolute;
