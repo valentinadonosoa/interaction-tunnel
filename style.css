@@ -1,0 +1,45 @@
+html{
+    background-color: #BFDAE8;
+    overflow: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px solid black;
+    margin: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+}
+
+.box {
+    background-color: #885f39;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+}
+
+img{
+    width: 100%;
+    left: 5%;
+}
+
+.moveable-image {
+    position: absolute;
+    width: 4%;
+  }
+
+@media screen and (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      margin: 100px;
+    }
+    .moveable-image {
+        position: absolute;
+        width: 7%;
+        left: 5%;
+    }
+}
